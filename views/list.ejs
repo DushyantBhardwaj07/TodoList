@@ -1,0 +1,22 @@
+<%-include("header")-%>
+    <div class="box" id = "heading">
+      <h1><%=kindofday%></h1>
+    </div>
+
+    <div class="box">
+        <%for(var i = 0; i < newItem_shop.length; i++) {%>
+          <div class="item">
+            <input type="checkbox" name="" value="">
+            <p><%=newItem_shop[i]%></p>
+          </div>
+        <%}%>
+        <form class="item" action="/" method="post">
+          <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+          <button type="submit" name="typetodo" value ="<%=kindofday%>">+</button>
+        </form>
+    </div>
+
+    <form action="/" method="post">
+      <button type="submit" name="reset" value ="clear" class="clear">Clear</button>
+    </form>
+<%-include("footer")-%>
