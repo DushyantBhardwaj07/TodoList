@@ -12,7 +12,7 @@ A simple and interactive To-Do List web application built using Node.js, Express
 
 Follow these steps to get the To-Do List app up and running:
 
-1. 🍴 Fork this repository: `git clone https://github.com/your-username/ejs-todolist.git`
+1. 🍴 Fork this repository.
 2. 🚀 Navigate to the project directory.
 3. 📦 Install dependencies: `npm install`
 4. ▶️ Start the server: `node app.js`
